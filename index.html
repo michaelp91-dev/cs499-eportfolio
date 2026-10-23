@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Michael Puckett — Computer Science ePortfolio</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1c2430;
+      --muted: #4a5564;
+      --line: #d5dbe3;
+      --bar: #0f2744;
+      --paper: #f6f7f9;
+      --card: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Georgia, "Times New Roman", serif;
+      color: var(--ink);
+      background: var(--paper);
+    }
+    header {
+      background: var(--bar);
+      color: #fff;
+      padding: 28px 8vw 24px;
+    }
+    header p { margin: 0; }
+    .name { font-size: 2rem; letter-spacing: 0.01em; }
+    .course { margin-top: 6px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 0.95rem; }
+    .url {
+      margin-top: 18px;
+      display: inline-block;
+      padding: 8px 12px;
+      background: #fff;
+      color: var(--bar);
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+    }
+    main { max-width: 880px; margin: 0 auto; padding: 28px 8vw 48px; }
+    h1 { font-size: 1.35rem; margin: 0 0 10px; }
+    .lead { font-size: 1.05rem; line-height: 1.5; margin: 0 0 22px; }
+    .cards { display: grid; gap: 14px; }
+    article {
+      background: var(--card);
+      border: 1px solid var(--line);
+      padding: 16px 18px;
+    }
+    h2 { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1rem; margin: 0 0 6px; }
+    article p { margin: 0; line-height: 1.45; }
+    a { color: #0b3a75; }
+    footer {
+      border-top: 1px solid var(--line);
+      margin-top: 28px;
+      padding-top: 14px;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <p class="name">Michael Puckett</p>
+    <p class="course">Computer Science ePortfolio · CS-499 Computer Science Capstone</p>
+    <p class="url">https://michaelp91-dev.github.io/cs499-eportfolio/</p>
+  </header>
+  <main>
+    <h1>Portfolio home</h1>
+    <p class="lead">This is the home page for my Computer Science capstone. The three artifacts below are the ones I plan to enhance: a full-stack travel application, a course-advising program, and a rescue-animal dashboard.</p>
+    <div class="cards">
+      <article>
+        <h2>Software engineering and design</h2>
+        <p>Travlr Getaways, from CS-465. Customer pages and an Angular admin app share one API. <a href="https://github.com/michaelp91-dev/CS-465/tree/module7/Mod7/travlr">View the finished application on GitHub</a>.</p>
+      </article>
+      <article>
+        <h2>Algorithms and data structures</h2>
+        <p>Advising Assistance Program, from DSA-300. A hash map loads the course catalog, and the planned enhancement adds a prerequisite graph so an advisor can print a valid course order.</p>
+      </article>
+      <article>
+        <h2>Databases</h2>
+        <p>Grazioso Salvare rescue dashboard, from CS-340. A Dash page queries MongoDB. The planned enhancement is a browser page and a small API in front of the same collection.</p>
+      </article>
+    </div>
+    <footer>
+      <p>Michael Puckett · https://michaelp91-dev.github.io/cs499-eportfolio/</p>
+    </footer>
+  </main>
+</body>
+</html>
